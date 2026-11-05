@@ -1,0 +1,16 @@
+[project]
+name = "mcpctl"
+version = "0.1.0"
+description = "Control CLI for distributed MCP implementations"
+requires-python = ">=3.13"
+dependencies = [
+    "pyyaml>=6.0",
+    "typer>=0.27",
+]
+
+[project.scripts]
+mcpctl = "mcpctl.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"

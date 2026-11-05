@@ -1,0 +1,10 @@
+mcps:
+  customer-data:
+    path: mcps/customer-data
+    version: 1.2.0
+  document-search:
+    path: mcps/document-search
+    version: 2.0.1
+  ticket-management:
+    path: mcps/ticket-management
+    version: 1.0.0

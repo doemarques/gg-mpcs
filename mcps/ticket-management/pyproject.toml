@@ -1,0 +1,16 @@
+[project]
+name = "ticket-management"
+version = "1.0.0"
+description = "Ticket management MCP server"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=4.1.6",
+    "mcp[cli]>=2.3.0",
+]
+
+[project.scripts]
+ticket-management = "ticket_management:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
